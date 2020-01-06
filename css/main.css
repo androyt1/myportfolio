@@ -1252,7 +1252,7 @@ header .header-logo a {
  * menu trigger - (_layout.css) 
  * ------------------------------------------------------------------- */
 #header-menu-trigger {
-  display: block;
+  display: none;
   position: fixed;
   right: 32px;
   top: 30px;
@@ -1271,7 +1271,7 @@ header .header-logo a {
   transition: all 0.3s ease-in-out;
 }
 #header-menu-trigger.opaque {
-  background-color: #000000;
+  
 }
 #header-menu-trigger.opaque .header-menu-text {
   background-color: #000000;
@@ -1280,7 +1280,7 @@ header .header-logo a {
   color: #FFFFFF;
 }
 #header-menu-trigger .header-menu-text {
-  display: block;
+  display: none;
   position: absolute;
   top: 0;
   left: -75px;
@@ -1294,7 +1294,7 @@ header .header-logo a {
   transition: all 0.3s ease-in-out;
 }
 #header-menu-trigger .header-menu-icon {
-  display: block;
+  display: none;
   height: 3px;
   width: 24px;
   background-color: #FFFFFF;
@@ -1483,7 +1483,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/androy.jpg);
+  background-image: url(../images/bg_1.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1860,7 +1860,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/wow.jpg);
+  background-image: url(../images/bg_3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2482,7 +2482,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #contact {
   background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/bg_3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2621,8 +2621,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 6rem;
   padding: 0 3rem;
   width: 100%;
-  background: #f9a828;
-  color: #000000;
+  background: crimson;
+  color: #fff;
   margin-top: .6rem;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
@@ -2918,8 +2918,8 @@ footer h4.h05::after {
   line-height: inherit;
 }
 #go-top a:visited {
-  background: #000000;
-  color: #888;
+  background: crimson;
+  color: #fff;
 }
 #go-top a:hover, #go-top a:focus {
   background: #000000;
