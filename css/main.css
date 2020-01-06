@@ -2572,21 +2572,21 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   content: "";
 }
 #contact form ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
 }
 #contact form :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 1);
   /* Firefox 18- */
 }
 #contact form ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 1);
   /* Firefox 19+ */
 }
 #contact form :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 1);
 }
 #contact form .placeholder {
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 #contact input[type="text"],
@@ -2596,7 +2596,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 100%;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 3.6rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 #contact input[type="text"]:focus,
